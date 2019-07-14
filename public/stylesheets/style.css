@@ -1,1 +1,7 @@
-
+body, navbar{
+  background: #ccc;
+  font-family: 'Lobster', cursive;
+}
+.list-group-item{
+  background: #bbb;
+}

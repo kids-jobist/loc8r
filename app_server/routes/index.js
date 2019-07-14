@@ -1,10 +1,10 @@
 var express = require('express');
 var router = express.Router();
-var ctrlLocations = require("../controllers/locations.js");
-var ctrlOhters = require("../controllers/others.js");
+var ctrlLocations = require("../controllers/locations");
+var ctrlOhters = require("../controllers/others");
 
 /* Страницы местоположений */
-router.get('/', ctrlLocations.homeList);
+router.get('/', ctrlLocations.homelist);
 router.get('/location', ctrlLocations.locationInfo);
 router.get('/location/review/new', ctrlLocations.addReview);
 
